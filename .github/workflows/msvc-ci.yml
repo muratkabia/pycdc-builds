@@ -22,8 +22,8 @@ jobs:
           bash.exe ..\..\tests\all_tests.sh
         env:
           PYTHON_EXE: python.exe
-      - uses: actions/upload-artifact@v3.1.1
       - name: Upload Artifact
+      - uses: actions/upload-artifact@v3.1.1
         with:
           name: ./build/*
           
